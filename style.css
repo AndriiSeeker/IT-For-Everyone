@@ -71,7 +71,7 @@ html,body{
 #bgimg-1 {
     position: relative;
     background-image: url(images/pexels-fauxels-3183197.jpg);
-    min-height: calc(100% - 50px);
+    min-height: 100%;
     z-index: -1;
     background-size: cover;
     opacity: 80%;
@@ -146,6 +146,7 @@ ul {
 .list li {
     list-style: none; /* Скрываем маркеры списка */
     text-indent: -1em; /* Сдвигаем элементы списка влево */
+    margin-top: 15px;
    }
 .list li::before {
     content: '\25ba'; 
@@ -173,7 +174,7 @@ ul {
     border-bottom: 1px solid #EEABB0;
 }
 footer{
-  height: 50px;
+    height: 48px;
     margin-bottom: 0%;
     background:#4D3E40; 
     text-align:center;
@@ -181,14 +182,12 @@ footer{
     left: 0;
     bottom: 0;
     width: 100%;
-    display: flex;
     align-items: center;
     justify-content: center;
 }
 footer p{
-font-family: 'Noto Sans JP', sans-serif;
-color: #ffffff;
-font-size:14px;
-text-align: center;
-margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    color: #ffffff;
+    font-size:14px;
+    margin: 3px;
 }
