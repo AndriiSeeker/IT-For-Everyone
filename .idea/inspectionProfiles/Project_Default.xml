@@ -1,0 +1,44 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="3">
+            <item index="0" class="java.lang.String" itemvalue="python-dotenv" />
+            <item index="1" class="java.lang.String" itemvalue="psycopg2-binary" />
+            <item index="2" class="java.lang.String" itemvalue="urllib3" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N814" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="id" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="parse_tree.paraphrase.models.Paraphrase.objects" />
+          <option value="quotes.models.Author.objects" />
+          <option value="quotes.models.Quote.objects" />
+          <option value="quotes.models.Tag.objects" />
+          <option value="urllib.parse" />
+          <option value="core.cryptocurrency.models.Crypto.objects" />
+          <option value="core.cryptocurrency.models.News.objects" />
+          <option value="core.users.models.Profile.objects" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
